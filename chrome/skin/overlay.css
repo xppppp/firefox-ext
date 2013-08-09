@@ -1,0 +1,7 @@
+#poche-toolbar-button {
+  list-style-image: url("chrome://poche/skin/toolbar.png");
+}
+
+toolbar[iconsize="small"] #poche-toolbar-button {
+  list-style-image: url("chrome://poche/skin/toolbar-small.png");
+}
