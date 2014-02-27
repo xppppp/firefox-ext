@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="string" pref="extensions.poche@gaulupeau.fr.url" title="Your Poche URL" />
+  <setting type="string" pref="extensions.wallabag@gaulupeau.fr.url" title="Your wallabag URL" />
 </vbox>

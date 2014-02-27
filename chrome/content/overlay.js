@@ -1,7 +1,7 @@
-if (typeof poche == "undefined") {
-	var poche = {
+if (typeof wallabag == "undefined") {
+	var wallabag = {
 		_prefs: Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefService).getBranch("extensions.poche@gaulupeau.fr."),
+			.getService(Components.interfaces.nsIPrefService).getBranch("extensions.wallabag@gaulupeau.fr."),
 
 		installButton: function (toolbarId, id, afterId) {
 				if (!document.getElementById(id)) {
@@ -44,9 +44,9 @@ if (typeof poche == "undefined") {
 
 	window.addEventListener("load", function() {
 		Application.getExtensions(function(extensions) {
-			var extension = extensions.get("poche@gaulupeau.fr");
+			var extension = extensions.get("wallabag@gaulupeau.fr");
 			if (extension.firstRun) {
-				poche.installButton("nav-bar", "poche-toolbar-button");
+				wallabag.installButton("nav-bar", "wallabag-toolbar-button");
 			}
 		});
 	}, false);

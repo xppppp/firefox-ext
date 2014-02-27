@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>poche@gaulupeau.fr</em:id>
+		<em:id>wallabag@gaulupeau.fr</em:id>
 		<em:version>1.0</em:version>
 		<em:type>2</em:type>
 
-		<em:name>Poche</em:name>
-		<em:description>Post URL to Poche</em:description>
+		<em:name>wallabag</em:name>
+		<em:description>Post URL to wallabag</em:description>
 		<em:creator>Jonathan GAULUPEAU</em:creator>
-		<em:iconURL>chrome://poche/skin/icon.png</em:iconURL>
-		<em:optionsURL>chrome://poche/content/options.xul</em:optionsURL>
+		<em:iconURL>chrome://wallabag/skin/icon.png</em:iconURL>
+		<em:optionsURL>chrome://wallabag/content/options.xul</em:optionsURL>
 		<em:optionsType>2</em:optionsType>
 
 		<em:targetApplication>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://poche/skin/overlay.css" type="text/css"?>
-<overlay id="poche-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<?xml-stylesheet href="chrome://wallabag/skin/overlay.css" type="text/css"?>
+<overlay id="wallabag-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script src="overlay.js" />
 	<toolbarpalette id="BrowserToolbarPalette">
-		<toolbarbutton id="poche-toolbar-button" class="toolbarbutton-1" type="menu-button"
-			label="Poche" oncommand="poche.post(event);">
+		<toolbarbutton id="wallabag-toolbar-button" class="toolbarbutton-1" type="menu-button"
+			label="wallabag" oncommand="wallabag.post(event);">
 			<menupopup>
-        <menuitem label="Post current URL to Poche" oncommand="poche.post(event);" default="true" />
-        <menuitem label="Open Poche" oncommand="poche.open(event);" />
+        <menuitem label="Post current URL to wallabag" oncommand="wallabag.post(event);" default="true" />
+        <menuitem label="Open wallabag" oncommand="wallabag.open(event);" />
       </menupopup>
 		</toolbarbutton>
 	</toolbarpalette>
