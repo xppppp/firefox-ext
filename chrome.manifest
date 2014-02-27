@@ -1,6 +1,6 @@
-content poche chrome/content/
-skin poche global chrome/skin/
+content wallabag chrome/content/
+skin wallabag global chrome/skin/
 
-overlay chrome://browser/content/browser.xul chrome://poche/content/overlay.xul
+overlay chrome://browser/content/browser.xul chrome://wallabag/content/overlay.xul
 
-style chrome://global/content/customizeToolbar.xul chrome://poche/skin/overlay.css
+style chrome://global/content/customizeToolbar.xul chrome://wallabag/skin/overlay.css

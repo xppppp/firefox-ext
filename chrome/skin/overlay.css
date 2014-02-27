@@ -1,7 +1,7 @@
-#poche-toolbar-button {
-  list-style-image: url("chrome://poche/skin/toolbar.png");
+#wallabag-toolbar-button {
+  list-style-image: url("chrome://wallabag/skin/toolbar.png");
 }
 
-toolbar[iconsize="small"] #poche-toolbar-button {
-  list-style-image: url("chrome://poche/skin/toolbar-small.png");
+toolbar[iconsize="small"] #wallabag-toolbar-button {
+  list-style-image: url("chrome://wallabag/skin/toolbar-small.png");
 }
