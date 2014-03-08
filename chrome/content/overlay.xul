@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://wallabag/skin/overlay.css" type="text/css"?>
 <overlay id="wallabag-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script src="overlay.js" />
-	<toolbarpalette id="BrowserToolbarPalette">
-		<toolbarbutton id="wallabag-toolbar-button" class="toolbarbutton-1" type="menu-button"
-			label="wallabag" oncommand="wallabag.post(event);">
-			<menupopup>
-        <menuitem label="Post current URL to wallabag" oncommand="wallabag.post(event);" default="true" />
-        <menuitem label="Open wallabag" oncommand="wallabag.open(event);" />
-      </menupopup>
-		</toolbarbutton>
-	</toolbarpalette>
+    <script src="overlay.js" />
+    <keyset>
+        <key id="wallabag-save-url-key" modifiers="accel,alt" key="s" oncommand="wallabag.post(event)" />
+    </keyset>
+    <toolbarpalette id="BrowserToolbarPalette">
+	<toolbarbutton id="wallabag-toolbar-button" class="toolbarbutton-1" type="menu-button"
+		       label="wallabag" oncommand="wallabag.post(event);">
+	    <menupopup>
+                <menuitem label="Post current URL to wallabag" oncommand="wallabag.post(event);" default="true" key="wallabag-save-url-key"/>
+                <menuitem label="Open wallabag" oncommand="wallabag.open(event);" />
+            </menupopup>
+	</toolbarbutton>
+    </toolbarpalette>
 </overlay>
