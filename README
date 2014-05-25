@@ -2,6 +2,8 @@ wallabag by Jonathan GAULUPEAU <jo.gaulupeau-at-gmail.com>
 
 Updated by Thomas CITHAREL <tcit-at-tcit.fr>
 
-Mozilla Firefox extension to add post to wallabag <https://www.wallabag.org>
+Mozilla Firefox extension to add post to wallabag via crude API.  If api.php
+is not available, then the extension will fall back to using the web.
+<https://www.wallabag.org>
 
 Add-on inspired by Aeris's Shaarli add-on <https://addons.mozilla.org/fr/firefox/user/aeris22/>

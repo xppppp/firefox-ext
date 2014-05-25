@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="string" pref="extensions.wallabag@gaulupeau.fr.url" title="Your wallabag URL" />
+  <setting type="string" pref="extensions.wallabag.api@idealworldinc.com.url" title="Your wallabag URL" />
+  <setting type="string" pref="extensions.wallabag.api@idealworldinc.com.username" title="Your wallabag username" />
+  <setting type="string" pref="extensions.wallabag.api@idealworldinc.com.password" title="Your wallabag password" />
 </vbox>
